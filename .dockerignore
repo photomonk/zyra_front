@@ -1,0 +1,39 @@
+# Dependency directories (CRITICAL: Do not copy local node_modules)
+node_modules
+jspm_packages
+
+# Build outputs
+dist
+dist-ssr
+build
+out
+.next
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Docker specific
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Editor and OS metadata
+.vscode
+.idea
+.git
+.DS_Store
+*.swp
+*.swo
+
+# Environment secrets (Prevent leaking API keys into images)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
